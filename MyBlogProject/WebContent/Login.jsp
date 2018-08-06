@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <title>로그인</title>
 
-<--JavaScript를 이용한 아이디, 비밀번호 공백 유무 판별 및 클릭 이벤트 처리 함수-->
+<%-- JavaScript를 이용한 아이디, 비밀번호 공백 유무 판별 및 클릭 이벤트 처리 함수 --%>
 <script language="JavaScript">
 	function In_Check() {
 		if (document.login.id.value="") {
@@ -22,9 +22,11 @@
 </script>
 </head>
 <body>
-	<--중앙정렬-->
+	<%-- 중앙정렬 --%>
 	<center>
+		<%-- 입력폼  --%>
 		<form method="post" action="main.jsp" name="Login">
+			<%-- 표만들기 --%>
 			<table border="1" cellspacing="1">
 				<tr>
 					<td>아이디</td>
